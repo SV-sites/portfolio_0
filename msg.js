@@ -6,6 +6,8 @@
 
 console.log('Test is running!');
 
+// task 0 create a function to open a doc file
+
 const rand_sel_msg = () => {
     console.log('Function is running!');
     return 0;
