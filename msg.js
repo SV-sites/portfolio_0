@@ -19,6 +19,7 @@ const rand_sel_msg = () => {
 }
 
 // task 1 change to fedora => ubuntu crashed
+// tones of documentation
 
 open_doc();
 rand_sel_msg();
