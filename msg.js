@@ -16,7 +16,9 @@ const open_doc = () => {
 const rand_sel_msg = () => {
     console.log('Function is running!');
     return 0;
-} 
+}
+
+// task 1 change to fedora => ubuntu crashed
 
 open_doc();
 rand_sel_msg();
