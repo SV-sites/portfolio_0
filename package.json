@@ -18,6 +18,7 @@
   "homepage": "https://github.com/SV-sites/portfolio_0#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mkdirp": "^1.0.4"
   }
 }
