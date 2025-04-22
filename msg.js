@@ -21,5 +21,8 @@ const rand_sel_msg = () => {
 // task 1 change to fedora => ubuntu crashed
 // tones of documentation
 
+// task 2 fedora install NodeJS
+// task 3 fedora install Express
+
 open_doc();
 rand_sel_msg();
