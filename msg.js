@@ -35,5 +35,5 @@ const rand_sel_msg = () => {
 
 // START Code!
 
-open_doc('./data/astrology.docx');
+open_doc('./data/astrology.txt');
 rand_sel_msg();
