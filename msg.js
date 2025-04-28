@@ -4,12 +4,21 @@
     3 Call the function
 */
 
+// IMPORTOK
+
+const fs = require('fs');
+const fs_extra = require('fs-extra');
+const path = require("path"); 
+
 console.log('Test is running!');
 
 // task 0 create a function to open a doc file
 
-const open_doc = () => {
+const open_doc = (path) => {
+    let data = fs.readFileSync(path).toString().split("\n");
+
     console.log('Opening document!');
+    console.log('Read out :\n\n'+data);
     return 0
 }
 
@@ -24,5 +33,7 @@ const rand_sel_msg = () => {
 // task 2 fedora install NodeJS
 // task 3 fedora install Express
 
-open_doc();
+// START Code!
+
+open_doc('./data/astrology.docx');
 rand_sel_msg();
